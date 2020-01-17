@@ -1,0 +1,31 @@
+.modal {
+  &__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+    background-color: rgba(3, 16, 34, 0.87);
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__window {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    cursor: auto;
+    outline: none;
+  }
+
+  &__cross {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    cursor: pointer;
+  }
+}

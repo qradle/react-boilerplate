@@ -1,0 +1,57 @@
+@mixin margins {
+  @for $i from 1 through 100 {
+    $margin: $i * 4px;
+    .m-#{$i} {
+      margin: $margin;
+    }
+    .ml-#{$i} {
+      margin-left: $margin;
+    }
+    .mr-#{$i} {
+      margin-right: $margin;
+    }
+    .mt-#{$i} {
+      margin-top: $margin;
+    }
+    .mb-#{$i} {
+      margin-bottom: $margin;
+    }
+  }
+}
+
+@mixin padding {
+  @for $i from 1 through 100 {
+    $padding: $i * 4px;
+    .p-#{$i} {
+      padding: $padding;
+    }
+    .pl-#{$i} {
+      padding-left: $padding;
+    }
+    .pr-#{$i} {
+      padding-right: $padding;
+    }
+    .pt-#{$i} {
+      padding-top: $padding;
+    }
+    .pb-#{$i} {
+      padding-bottom: $padding;
+    }
+  }
+}
+
+@mixin fontSize {
+  @for $i from 6 through 50 {
+    .fs-#{$i} {
+      font-size: $i + px;
+    }
+  }
+}
+
+@mixin lineHeight {
+  @for $i from 6 through 50 {
+    .lh-#{$i} {
+      line-height: $i + px;
+    }
+  }
+}
