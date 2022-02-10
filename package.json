@@ -70,7 +70,7 @@
     "image-webpack-loader": "4.6.0",
     "lint-staged": "^8.2.1",
     "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.18.2",
     "progress-bar-webpack-plugin": "^2.1.0",
